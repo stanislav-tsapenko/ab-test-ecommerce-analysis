@@ -1,4 +1,4 @@
-# A/B Test for E-commerce Platform
+# A/B Test E-commerce Analysis
 
 This project's Jupyter Notebook (`ab_test_ecommerce_analysis.ipynb`) calculates the statistical significance of key metrics from an A/B test on an e-commerce platform. The results are prepared for further visualization in Tableau.
 
