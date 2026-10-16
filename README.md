@@ -1,6 +1,6 @@
 # A/B Test E-commerce Analysis
 
-This project's Jupyter Notebook (`ab_test_ecommerce_analysis.ipynb`) calculates the statistical significance of key metrics from an A/B test on an e-commerce platform. The results are prepared for further visualization in Tableau.
+This project's Jupyter Notebook (`ab_test_ecommerce_analysis.ipynb`) calculates the statistical significance of four key funnel metrics in A/B tests on an e-commerce platform. The results are prepared for further visualization in Tableau.
 
 ---
 
@@ -93,9 +93,14 @@ public access, so the results are saved in the notebook and shown above.
 
 - **Python**  
 - **Jupyter Notebook**  
-- **Google BigQuery Client**  
+- **Google BigQuery Client**
 - **Pandas**  
 - **statsmodels.stats.proportion**  
 - **SQL**
+- **Claude Code**
 
 ---
+## AI-assisted development
+
+The SQL query and the statistical analysis code were drafted with Claude Code.
+All outputs were verified before use: the Z-test p-values were recalculated for one metric and matched proportions_ztest, and session counts per group were compared with the source table.
